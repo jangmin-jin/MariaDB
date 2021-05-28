@@ -55,12 +55,13 @@ DROP TABLE dept_p2;
 
 -- ERD 참고하여 테이블 구성
 CREATE TABLE customers(
-  cno VARCHAR (5) PRIMARY KEY,
+  cno VARCHAR (5),
   cname VARCHAR (10),
   address VARCHAR (50),
   email VARCHAR (20),
   phone VARCHAR (20)
 );
+
 DESC customers;
 
 CREATE TABLE orders(
